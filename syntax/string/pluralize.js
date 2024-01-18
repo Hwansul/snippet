@@ -15,5 +15,6 @@ const PLURALS = {
   person: 'people',
   radius: 'radii'
 };
+
 const autoPluralize = pluralize(PLURALS);
 autoPluralize(2, 'person'); // 'people'
